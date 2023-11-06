@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfollio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- ..............................make account.................... -->
+    <script src="https://kit.fontawesome.com/a4e2d4308e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="photos/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contect">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <P>UI/UX Designer</P>
+                <h1>Hi, I'am <span>Muhammad</span><br>From Bangladesh</h1>
+            </div>
+        </div>
+    </div>
+<!-- --------------------about------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="photos/user.png">
+            </div>
+            <div class="about-cal-2">
+                <h1 class="sub-title">About Me</h1>
+                <p class="about-des">
+                    I am a Full Stack Web Developer, who is a versatile professional with expertise in both the front-end and back-end aspects of web development. They have the skills to work on every layer of a web application, from designing user interfaces and creating interactive experiences to managing databases, servers, and server-side logic. I have the ability to develop end-to-end web solutions, making them highly adaptable and valuable in the rapidly evolving world of web development.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"  onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Building Androis/iOS Apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022 - Current</span><br>UI/UX Design Traning at ET Institute</li>
+                        <li><span>2020-2022</span><br>Team lead at Staraapp LLC.</li>
+                        <li><span>2018-2020</span><br>UI/UX Design Executive at Coin Degital Ltd.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2017</span><br>UI/UX Design Traning at ET Institute</li>
+                        <li><span>2019</span><br>Bsc from Dhaka University</li>
+                        <li><span>2023</span><br>Msc from Dhaka University</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- .......................services................. -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <li>
+                    Website Development
+                </li>
+                <li>
+                    Front-End Development
+                </li>
+                <li>
+                    Back-End Developmen
+                </li>
+                <li>
+                    Responsive Design
+                </li>
+                <li>
+                    E-Commerce Development
+                </li>
+
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <li>
+                    User Interface Design
+                </li>
+                <li>
+                    User Experience Design
+                </li>
+                <li>
+                    Visual Hierarchy
+                </li>
+                <li>
+                    Interaction Design
+                </li>
+                <li>
+                    Consistency and Branding
+                </li>
+
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>
+                    <li>
+                        User-Centered Design
+                    </li>
+                    <li>
+                        User Experience (UX) Design
+                    </li>
+                    <li>
+                        Visual Design
+                    </li>
+                    <li>
+                        Mobile-First Design
+                    </li>
+                    <li>
+                        Responsive Design
+                    </li>
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- .....................portfollio................ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="photos/work-1.png">
+                <div class="layer">
+                    <h3>Social Midea App</h3>
+                    <p>The app connects you to the talented people around the world. Download it from play store</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="photos/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world. Download it from play store</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="photos/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world. Download it from play store</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- .....................contect................ -->
+<div id="contect">
+</div>
+    <div class="container">
+        <div class="row">
+            <div class="contect-left">
+                <h1 class="sub-title">Contect Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane fa-beat-fade"></i>muhammadsojibx15@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone fa-beat-fade"></i>+8801618400832</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com"><i class="fa-brands fa-x-twitter"></i>
+                    <a href="https://instragram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a download class="btn btn2" href="photos/Muhammad Sojib Resume.pdf">Download CV</a>
+            </div>
+        </div>
+        <div class="contect-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your email" required>
+                <textarea name="Message" rows="6" placeholder="Your Massege"></textarea>
+                <button class="btn btn2" type="submit">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+    <div class="copyright">
+        <P>Copyright &copy; Muhammad Sojib. Made with <i class="fa-solid fa-hand-holding-hand"></i> by Muhammad Sojib</P>
+    </div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenue = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenue.style.right = "0";
+    }
+    function closemenu(){
+        sidemenue.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwTGjaI_OgkJ4olRcxSPTdqK71ljIaYCWLnu6R5tokd3ZC8XpzMU3Rc78axIKB6CA9zBg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Messege sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 4000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
